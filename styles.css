@@ -1,2 +1,41 @@
+/* General body styling */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
 
-/* Your CSS Code here. */
+.container {
+    text-align: center; /* Center-align content within container */
+}
+
+/* Styling for the movie poster */
+.moviePic {
+    height: 500px; /* Adjust height as needed */
+    width: auto; /* Maintain aspect ratio */
+    opacity: 0.9; /* Slightly transparent */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+    margin-bottom: 20px; /* Space below the image */
+}
+
+/* Styling for the movie description */
+.movieDetail {
+    position: relative;
+    top: 0;
+    width: 80%; /* Adjust width as needed */
+    max-width: 600px; /* Maximum width for larger screens */
+    margin: 0 auto; /* Center the element horizontally */
+    text-align: center; /* Center-align the text */
+    font-size: 18px; /* Adjust font size as needed */
+    line-height: 1.6; /* Line height for better readability */
+    color: #333; /* Dark gray text color */
+    background-color: #fff; /* White background for contrast */
+    padding: 20px; /* Space inside the paragraph */
+    border-radius: 10px; /* Rounded corners for paragraph */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+}
